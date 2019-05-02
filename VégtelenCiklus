@@ -2,7 +2,6 @@
 int
 main ()
 {
-for (;;)
-sleep (1);
+for (;;){}
 return 0;
 }
