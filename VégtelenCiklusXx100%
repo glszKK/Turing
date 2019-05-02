@@ -1,0 +1,17 @@
+                #include <unistd.h>
+                int main ()
+                {
+                   int p1, p2, p3;
+                   if(!(p1 = fork()))
+                   {
+                       for( ;; );
+                   if(!(p2 = fork()))
+                   {
+                       for( ;; );
+                   if(!(p3 = fork()))
+                   {
+                       for( ;; );
+                }
+                for (;;){}
+                return 0;
+                }
